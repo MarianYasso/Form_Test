@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Form</title>
+</head>
+<body>
+<form action="https://formspree.io/f/moqzpqwk" method="post" enctype="multipart/form-data">
+    <div class="form__menu">
+    <div>
+        <p></p>
+        <input required type="text" tabindex="1" name="userlogin" placeholder="Login" value="">
+    </div>
+    <div>
+        <p></p>
+        <input required type="password" tabindex="2" name="userpass" placeholder="Password" value="">
+    </div>
+    <div>
+        <p></p>
+        <input required type="tel" tabindex="3" name="userlogin" placeholder="Phonenumber" value="">
+    </div>
+        <div>
+            <p>Choose your sex</p>
+        <input checked required type="radio" tabindex="4" name="male" value="gender">Male
+        <input required type="radio" tabindex="4" name="female" value="gender">Female
+        </div>
+    </div>
+    <div>
+        <p>Choose your fraction</p>
+        <div>
+            <p></p>
+        <input checked type="checkbox" tabindex="5" name="alliance" value="fraction">Alliance
+        </div>
+        <div>
+            <p></p>
+        <input type="checkbox" tabindex="6" name="horde" value="fraction">Horde
+        </div>
+        <div>
+            <p></p>
+        <input type="checkbox" tabindex="7" name="legion" value="fraction">Burning Legion
+        </div>
+        <div>
+            <p></p>
+        <input type="checkbox" tabindex="8" name="void" value="fraction">Void Keepers
+        </div>
+        <div>
+            <p></p>
+        <input type="checkbox" tabindex="9" name="panteon" value="fraction">Titans Panteon
+        </div>
+        <div>
+            <p></p>
+        <input type="checkbox" tabindex="10" name="light" value="fraction">Naaru
+        </div>
+        <div>
+            <p></p>
+            <input disabled type="checkbox" tabindex="11" name="murlock" value="fraction">Murlocks
+        </div>
+    </div>
+    <div>
+        <p>Why?</p>
+        <textarea tabindex="12" name="text"></textarea>
+    </div>
+    <div>
+        <p>Load photo your most liked character</p>
+        <input type="file" tabindex="12" name="userimage">
+    </div>
+    <div>
+        <p>Choose your class</p>
+        <select name="class" tabindex="13">
+            <option value="warrior">Warrior</option>
+            <option value="paladin">Paladin</option>
+            <option value="dk">Death Knight</option>
+            <option value="rogue">Rogue</option>
+            <option value="monk">Monk</option>
+            <option value="DM">Demon Hunter</option>
+            <option value="lock">Warlock</option>
+            <option value="mage">Mage</option>
+            <option value="shaman">Shaman</option>
+            <option value="hunter">Hunter</option>
+            <option value="priest">Priest</option>
+            <option value="druid">Druid</option>
+            <option value="evoker">Evoker</option>
+        </select>
+    </div>
+    <div>
+        <p></p>
+        <button type="submit">Send</button>
+        <button type="reset">Delete</button>
+    </div>
+</form>
+</body>
+</html>
